@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Brand primary — Hikma red */
+  --color-brand-50: #fff1f1;
+  --color-brand-100: #ffe0e0;
+  --color-brand-200: #ffc7c6;
+  --color-brand-300: #ffa3a1;
+  --color-brand-400: #ff7773;
+  --color-brand-500: #ff5c57;
+  --color-brand-600: #ed3b36;
+  --color-brand-700: #c92b27;
+  --color-brand-800: #a52521;
+  --color-brand-900: #88251f;
+
+  /* Neutral warm grays */
+  --color-ink-50: #faf9f8;
+  --color-ink-100: #f4f2f0;
+  --color-ink-200: #e7e3e0;
+  --color-ink-300: #d6d0cc;
+  --color-ink-400: #b3aba5;
+  --color-ink-500: #8f8680;
+  --color-ink-600: #6f6762;
+  --color-ink-700: #524c48;
+  --color-ink-800: #3a3531;
+  --color-ink-900: #2a2622;
+  --color-ink-950: #1c1916;
+
+  /* Supporting */
+  --color-success-500: #2f9e6f;
+  --color-warning-500: #e0a800;
+  --color-accent-500: #ff5c57;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--color-ink-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+::selection {
+  background-color: var(--color-brand-500);
+  color: white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-300);
+  border-radius: 999px;
+  border: 2px solid var(--color-ink-100);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-400);
+}
+
+@keyframes ebers-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes ebers-fade-out {
+  0% { opacity: 1; }
+  70% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+@keyframes ebers-cursor-in {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.6); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(2%, -3%) scale(1.05); }
+}
+@keyframes float-slower {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-3%, 2%) scale(1.08); }
+}
+.animate-float-slow { animation: float-slow 14s ease-in-out infinite; }
+.animate-float-slower { animation: float-slower 18s ease-in-out infinite; }
+
+/* Focus ring helper */
+.focus-ring {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 3px;
+}
