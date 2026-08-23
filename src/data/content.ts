@@ -19,9 +19,9 @@ import avertoImg8 from '../../Images/img 8.jpeg';
 import avertoImg8_1 from '../../Images/img 8.1.jpeg';
 import avertoImg8_2 from '../../Images/img 8.2.jpeg';
 import avertoImg9 from '../../Images/img 9.jpeg';
-import avertoImg15 from '../../Image/ideas/img-15.jpeg';
-import avertoImg16 from '../../Image/ideas/img-16.jpeg';
-import avertoImg from '../../Image/ideas/img.png';
+import avertoImg15 from '../../image/ideas/img-15.jpeg';
+import avertoImg16 from '../../image/ideas/img-16.jpeg';
+import avertoImg from '../../image/ideas/img.png';
 
 
 
