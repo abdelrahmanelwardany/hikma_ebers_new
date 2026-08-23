@@ -101,7 +101,7 @@ export default function IdeaModal({
     return () => el.removeEventListener('keydown', onTab);
   }, [idea.id]);
 
-  const images = idea.imageUrls ?? (idea.imageUrl ? [idea.imageUrl] : idea.images);
+  const images = idea.imageUrls ?? (idea.imageUrl ? [idea.imageUrl] : idea.Images);
   const hasMultiple = images.length > 1;
 
   return (

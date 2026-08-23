@@ -17,11 +17,11 @@ import avertoImg8 from '../../Images/img 8.jpeg';
 import avertoImg8_1 from '../../Images/img 8.1.jpeg';
 import avertoImg8_2 from '../../Images/img 8.2.jpeg';
 
-import avertoImg13 from '../../image/ideas/img-13.jpeg';
-import avertoImg14 from '../../image/ideas/img-14.jpeg';
-import secImg15 from '../../image/ideas/img-15.jpeg';
-import secImg16 from '../../image/ideas/img-16.jpeg';
-import secImg from '../../image/ideas/img.png';
+import avertoImg13 from '../../images/9.jpeg';
+import avertoImg14 from '../../images/9.1.jpeg';
+import secImg15 from '../../images/5.jpeg';
+import secImg16 from '../../images/5.1.jpeg';
+import secImg from '../../images/5.2.jpeg';
 
 
 
