@@ -13,9 +13,15 @@ import avertoImg6 from '../../Images/img 6.jpeg';
 import avertoImg7 from '../../Images/img 7.jpeg';
 import avertoImg7_1 from '../../Images/img 7.1.jpeg';
 import avertoImg7_2 from '../../Images/img 7.2.jpeg';
+import avertoImg7_3 from '../../Images/img 7.3.jpeg';
+import avertoImg7_4 from '../../Images/img 7.4.jpeg';
 import avertoImg8 from '../../Images/img 8.jpeg';
 import avertoImg8_1 from '../../Images/img 8.1.jpeg';
 import avertoImg8_2 from '../../Images/img 8.2.jpeg';
+import avertoImg9 from '../../Images/img 9.jpeg';
+import avertoImg15 from '../../Image/ideas/img-15.jpeg';
+import avertoImg16 from '../../Image/ideas/img-16.jpeg';
+import avertoImg from '../../Image/ideas/img.png';
 
 
 
@@ -112,7 +118,7 @@ export const therapyAreas: TherapyArea[] = [
               'AR',
               'HCP',
               'AR Experience / Interactive Web Experience / Medical Rep Material',
-              'An interactive journey starts with the HCP exploring a 3D muscle model, visualizing how statin-associated muscle symptoms can affect muscle function and treatment continuity. The journey then shifts to the liver, where the HCP follows Bempedoic Acid to its site of action.\n At the liver, the molecule is activated by ACSVL, enabling it to inhibit ACL, reduce cholesterol synthesis, and ultimately increase hepatic LDL uptake and lower LDL-C. The experience makes the liver-focused activation and mechanism visually clear, while reinforcing why Bempedoic Acid offers a different approach for appropriate patients.',
+              'An interactive journey starts with the HCP exploring a 3D muscle model, visualizing how statin-associated muscle symptoms can affect muscle function and treatment continuity. The journey then shifts to the liver, where the HCP follows Bempedoic Acid to its site of action.\n At the liver, the molecule is activated by ACSVL, enabling it to inhibit ACL, reduce cholesterol synthesis, and ultimately increase hepatic LDL uptake and lower LDL-C. \nThe experience makes the liver-focused activation and mechanism visually clear, while reinforcing why Bempedoic Acid offers a different approach for appropriate patients.',
               [
                 'Make the mechanism visual: From muscle considerations to liver-focused action.',
                 'Differentiate Bempedoic Acid: Highlight its liver-focused activation and ACL inhibition.',
@@ -128,7 +134,7 @@ export const therapyAreas: TherapyArea[] = [
               'AR',
               'Patient',
               'AR Experience / Interactive Web Experience / Patient Education Material',
-              'The patient scans a QR code and sees a 3D coronary artery appear in AR. LDL-C gradually enters the artery wall and builds into plaque. As the plaque grows, the artery visibly narrows and blood flow becomes restricted—turning an invisible cholesterol number into a **visible cardiovascular risk.\nThe experience then reinforces the importance of knowing and managing LDL-C before the silent progression of atherosclerosis becomes a serious event.',
+              'The patient scans a QR code and sees a 3D coronary artery appear in AR. LDL-C gradually enters the artery wall and builds into plaque. As the plaque grows, the artery visibly narrows and blood flow becomes restrictedturning an invisible cholesterol number into a visible cardiovascular risk.\nThe experience then reinforces the importance of knowing and managing LDL-C before the silent progression of atherosclerosis becomes a serious event.',
               [
                 'Make LDL-C visible: Turn an abstract number into a tangible disease process.',
                 'Build risk awareness: Show how LDL-C contributes to plaque formation and arterial narrowing.',
@@ -177,7 +183,7 @@ export const therapyAreas: TherapyArea[] = [
               'Interactive Web',
               'HCP',
               'Interactive Web Experience / 3D Experience / Medical Rep Material',
-              'An interactive 3D journey where the HCP chooses between Statin and Bempedoic Acid. A patient climbs a flight of stairs as each pathway visualizes the different treatment journeys. The Statin path highlights how muscle-related symptoms may affect tolerability and daily activity, while the Bempedoic Acid path illustrates a different, liver-focused mechanism** without the same muscle-related impact.\n\nAlong the journey, short clinical insights reveal the key differences and the potential role of Bempedoic Acid in appropriate patients.',
+              'An interactive 3D journey where the HCP chooses between Statin and Bempedoic Acid. A patient climbs a flight of stairs as each pathway visualizes the different treatment journeys. The Statin path highlights how muscle-related symptoms may affect tolerability and daily activity, while the Bempedoic Acid path illustrates a different, liver-focused mechanism without the same muscle-related impact.\n\nAlong the journey, short clinical insights reveal the key differences and the potential role of Bempedoic Acid in appropriate patients.',
               [
                 'Make the difference visible: Compare the two treatment journeys.',
                 'Highlight differentiation: Connect mechanism with the patient experience.',
@@ -210,47 +216,47 @@ export const therapyAreas: TherapyArea[] = [
               'Interactive Web',
               'HCP',
               'Interactive Web Experience / Medical Rep Material / Gamification',
-              'An interactive HCP case begins with a patient reporting muscle cramps, fatigue, soreness, or weakness. The HCP reviews the key clinical clues, including treatment history, symptom timing, CK results, and other possible causes.\n\nThe journey then moves inside the mechanism, allowing the HCP to compare treatment pathways and visualize where each treatment acts. The Averto pathway highlights its liver-focused mechanism and lack of activation in skeletal muscle, followed by key LDL-C efficacy, safety, and clinical evidence. A short knowledge challenge closes the experience and reinforces the key takeaway.',
+              'The experience begins with a realistic patient case: a patient reports muscle cramps, fatigue, soreness, or weakness during daily activities. The HCP reviews the treatment history, symptom timing, CK results, and relevant clinical factors before choosing a treatment pathway.\nThe screen then splits into two parallel worlds. On the Statin pathway, the patient attempts to climb a flight of stairs but struggles to continue, while the other half of the screen visualizes the treatment’s mechanism. Key clinical insights then appear, connecting muscle-related symptoms, tolerability, and treatment continuity.\nThe HCP returns to the same patient and selects Averto. The screen splits again: this time, the patient climbs the stairs confidently, while the other half reveals Averto’s liver-focused mechanism, showing activation by ACSVL1, ACL inhibition, and LDL-C reduction. The journey closes with key clinical evidence and insights reinforcing the potential role of Bempedoic Acid in appropriate patients.',
               [
-                'Connect symptoms to the clinical challenge: Make the patient case relatable.',
-                'Visualize the difference: Show where Averto acts and its liver-focused mechanism.',
-                'Strengthen the evidence: Reinforce efficacy, safety, and supporting clinical data.',
+                'Start with the patient: Turn a clinical scenario into a relatable treatment journey.',
+                'Make the difference visible: Show the patient experience and MOA side-by-side.',
+                'Connect science to clinical value: Reinforce Averto’s liver-focused mechanism, LDL-C lowering, and potential role in appropriate patients.',
               ],
-              'HCPs better understand the clinical challenge of muscle symptoms and the potential role of Averto through mechanism and evidence.',
+              'HCPs experience the difference between treatment pathways through one patient story, connecting muscle-related concerns, mechanism, and the potential role of Averto.',
               ['av-launch-2-a'],
-              [avertoImg7,avertoImg7_1,avertoImg7_2]
+              [avertoImg7,avertoImg7_3,avertoImg7_4,avertoImg7_2]
             ),
             idea(
               'av-launch-3',
-              'The Closing Artery — Two Patient Pathways',
+              'The Closing Artery - Two Patient Pathways',
               'Interactive Web',
               'HCP',
               'Interactive Web Experience / 3D Experience / Medical Rep Material',
-              'The HCP chooses between two journeys for the same patient.\n\nOn the first path, a father walks with his child but slows down, distracted by treatment concerns. Another patient watches his family preparing for a gathering but stays on the sidelines, worried about continuing his treatment. The journey then moves beneath the surface, revealing the silent progression of LDL-C and plaque inside the artery.\n\nOn the second path, the same patients continue their everyday moments with greater confidence—the **father keeps walking with his child, while the other patient actively joins his family. The experience then moves inside the body to reveal Averto’s liver-focused mechanism, connecting the treatment journey to LDL-C reduction.\n\nThe two paths ultimately come together to show how what happens inside the body can influence what happens in the patient’s everyday life.',
+              'The HCP chooses between two journeys for the same patient.\n\nOn the first path, a father walks with his child but slows down, distracted by treatment concerns. Another patient watches his family preparing for a gathering but stays on the sidelines, worried about continuing his treatment. The journey then moves beneath the surface, revealing the silent progression of LDL-C and plaque inside the artery.\n\nOn the second path, the same patients continue their everyday moments with greater confidencethe father keeps walking with his child, while the other patient actively joins his family. The experience then moves inside the body to reveal Averto’s liver-focused mechanism, connecting the treatment journey to LDL-C reduction.\n\nThe two paths ultimately reveal how treatment choices can shape both what happens inside the body and how patients experience their everyday lives.',
               [
                 'Make the patient journey relatable: Connect treatment concerns with real-life moments.',
                 'Make silent risk visible: Reveal what is happening inside the artery beyond symptoms.',
                 'Connect Averto to the journey: Show its mechanism and LDL-C-lowering effect.',
               ],
-              'HCPs see the human and clinical impact of an unresolved treatment journey—and the potential of a supported journey with Averto.',
+              'HCPs see the human and clinical impact of an unresolved treatment journeyand the potential of a supported journey with Averto.',
               ['av-launch-3-a','av-launch-3-a'],
               [avertoImg8,avertoImg8_1,avertoImg8_2],
             ),
             idea(
               'av-launch-4',
-              'Digital Clinical League',
-              'Interactive Web',
-              'HCP',
-              'Interactive Website · Personalized Link · Email Campaign · Medical Rep Invitation · LinkedIn / HCP Social Channels',
-              'An annual regional engagement platform featuring digital clinical challenges based on real-world dyslipidemia cases, patient barriers, and treatment decisions. Country-, hospital-, or specialty-based leaderboards  encourage friendly competition, motivate HCPs to compete for the top ranking, represent their specialty, and share their achievement certificates, with rewards such as certificates and congress recognition.',
+              'Build Your Heart-Healthy Day',
+              'Gamification',
+              'Patient',
+              'Patient Web Experience / Gamification / Interactive Web Experience',
+              'The patient enters the experience and chooses a part of their day Breakfast, Lunch, Dinner, or Snack. They are then presented with a virtual plate and several food choices to build their meal.\nOnce the meal is complete, the experience instantly reveals a meal score, highlights the better and less healthy choices, and suggests simple swaps to make the meal more heart-friendly. Short tips then explain how choices such as fiber-rich foods, saturated fat, and healthier cooking options can support better lipid and cardiovascular health.\nThe patient can repeat the journey across different meals to build a healthier day, one choice at a time.',
               [
-                'Extends Launch beyond a single moment into sustained regional participation',
-                'Real-world case format keeps physicians engaged with the product\'s relevance',
-                'Country/specialty leaderboards drive friendly, ongoing competition',
+                'Personalize healthy eating: Let patients build their own meals.',
+                'Turn choices into learning: Show the immediate impact of each meal.',
+                'Encourage better swaps: Provide simple, practical alternatives.',
               ],
-              'Physicians stay actively engaged with Averto-relevant clinical thinking well beyond the launch moment, with regional competition sustaining participation and visibility..',
-              ['av-launch-4-a', 'av-launch-4-b'],
-              avertoImg8,
+              'Patients learn how to make more heart-friendly food choices through a simple, personalized, and engaging daily journey.',
+              ['av-launch-4-a'],
+              avertoImg9,
             ),
             idea(
               'av-launch-5',
@@ -307,7 +313,7 @@ export const therapyAreas: TherapyArea[] = [
             ],
             'Physicians and patients register adherence as an ongoing daily behavior rather than a one-time prescription decision, setting up the case for a simpler regimen.',
             ['re-1-a'],
-            avertoImg8_2,
+            avertoImg15,
           ),
           idea(
             're-2',
@@ -323,7 +329,7 @@ export const therapyAreas: TherapyArea[] = [
             ],
             'Physicians realize they overestimate real-world adherence on multi-pill regimens, creating an opening for the case toward a simpler, single-pill approach.',
             ['re-2-a'],
-            avertoImg8_2,
+            avertoImg16,
           ),
           idea(
             're-3',
@@ -339,7 +345,7 @@ export const therapyAreas: TherapyArea[] = [
             ],
             'Physicians feel the real burden of a multi-pill routine firsthand, making the single-tablet combination feel like an obvious, welcome relief rather than a marketing claim.',
             ['re-3-a'],
-            avertoImg2,
+            avertoImg,
           ),
         ],
       },
