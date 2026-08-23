@@ -17,12 +17,6 @@ import avertoImg8 from '../../Images/img 8.jpeg';
 import avertoImg8_1 from '../../Images/img 8.1.jpeg';
 import avertoImg8_2 from '../../Images/img 8.2.jpeg';
 
-import avertoImg13 from '../../images/9.jpeg';
-import avertoImg14 from '../../images/9.1.jpeg';
-import secImg15 from '../../images/5.jpeg';
-import secImg16 from '../../images/5.1.jpeg';
-import secImg from '../../images/5.2.jpeg';
-
 
 
 export type IdeaType =
@@ -289,7 +283,7 @@ export const therapyAreas: TherapyArea[] = [
               ],
               'Physicians gain a fuller, ongoing view of each patient\'s adherence and risk, while patients stay actively engaged with their treatment between visits .  turning a single prescription into sustained, monitored care.',
               ['av-post-1-a','av-post-1-b'],
-              [avertoImg13,avertoImg14]
+              [avertoImg8_2,avertoImg8_2]
             ),
           ],
       },
@@ -313,7 +307,7 @@ export const therapyAreas: TherapyArea[] = [
             ],
             'Physicians and patients register adherence as an ongoing daily behavior rather than a one-time prescription decision, setting up the case for a simpler regimen.',
             ['re-1-a'],
-            secImg15,
+            avertoImg8_2,
           ),
           idea(
             're-2',
@@ -329,7 +323,7 @@ export const therapyAreas: TherapyArea[] = [
             ],
             'Physicians realize they overestimate real-world adherence on multi-pill regimens, creating an opening for the case toward a simpler, single-pill approach.',
             ['re-2-a'],
-            secImg16,
+            avertoImg8_2,
           ),
           idea(
             're-3',
@@ -345,7 +339,7 @@ export const therapyAreas: TherapyArea[] = [
             ],
             'Physicians feel the real burden of a multi-pill routine firsthand, making the single-tablet combination feel like an obvious, welcome relief rather than a marketing claim.',
             ['re-3-a'],
-            secImg,
+            avertoImg8_2,
           ),
         ],
       },
