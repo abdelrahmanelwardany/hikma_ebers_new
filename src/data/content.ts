@@ -1,21 +1,21 @@
 // All proposal content lives here. Placeholder content is clearly marked with
 // "[Placeholder ...]" patterns so it is trivial to find and replace later.
 
-import firstAvertoImage from '../../images/first.jpeg';
-import avertoImg2 from '../../images/img 2.jpeg';
-import avertoImg2_1 from '../../images/img 2.1.jpeg';
-import avertoImg3 from '../../images/img 3.jpeg';
-import avertoImg3_1 from '../../images/img 3.1.jpeg';
-import avertoImg4 from '../../images/img 4.jpeg';
-import avertoImg4_1 from '../../images/img 4.1.jpeg';
-import avertoImg5 from '../../images/img 5.jpeg';
-import avertoImg6 from '../../images/img 6.jpeg';
-import avertoImg7 from '../../images/img 7.jpeg';
-import avertoImg7_1 from '../../images/img 7.1.jpeg';
-import avertoImg7_2 from '../../images/img 7.2.jpeg';
-import avertoImg8 from '../../images/img 8.jpeg';
-import avertoImg8_1 from '../../images/img 8.1.jpeg';
-import avertoImg8_2 from '../../images/img 8.2.jpeg';
+import firstAvertoImage from '../../Images/first.jpeg';
+import avertoImg2 from '../../Images/img 2.jpeg';
+import avertoImg2_1 from '../../Images/img 2.1.jpeg';
+import avertoImg3 from '../../Images/img 3.jpeg';
+import avertoImg3_1 from '../../Images/img 3.1.jpeg';
+import avertoImg4 from '../../Images/img 4.jpeg';
+import avertoImg4_1 from '../../Images/img 4.1.jpeg';
+import avertoImg5 from '../../Images/img 5.jpeg';
+import avertoImg6 from '../../Images/img 6.jpeg';
+import avertoImg7 from '../../Images/img 7.jpeg';
+import avertoImg7_1 from '../../Images/img 7.1.jpeg';
+import avertoImg7_2 from '../../Images/img 7.2.jpeg';
+import avertoImg8 from '../../Images/img 8.jpeg';
+import avertoImg8_1 from '../../Images/img 8.1.jpeg';
+import avertoImg8_2 from '../../Images/img 8.2.jpeg';
 
 import avertoImg13 from '../../image/ideas/img-13.jpeg';
 import avertoImg14 from '../../image/ideas/img-14.jpeg';
@@ -51,7 +51,7 @@ export interface Idea {
   briefDescription: string;
   objectives: string[];
   expectedOutcome: string;
-  images: string[]; // 1+ image seeds; each renders a distinct placeholder
+  Images: string[]; // 1+ image seeds; each renders a distinct placeholder
   imageUrl?: string;
   imageUrls?: string[];
 }
@@ -81,7 +81,7 @@ const idea = (
   briefDescription: string,
   objectives: string[],
   expectedOutcome: string,
-  images: string[],
+  Images: string[],
   imageUrl?: string | string[],
 ): Idea => ({
   id,
@@ -92,7 +92,7 @@ const idea = (
   briefDescription,
   objectives,
   expectedOutcome,
-  images,
+  Images,
   imageUrl: Array.isArray(imageUrl) ? undefined : imageUrl,
   imageUrls: Array.isArray(imageUrl) ? imageUrl : undefined,
 });
