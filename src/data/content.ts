@@ -339,7 +339,7 @@ export const therapyAreas: TherapyArea[] = [
             ],
             'Physicians feel the real burden of a multi-pill routine firsthand, making the single-tablet combination feel like an obvious, welcome relief rather than a marketing claim.',
             ['re-3-a'],
-            avertoImg8_2,
+            avertoImg2,
           ),
         ],
       },
