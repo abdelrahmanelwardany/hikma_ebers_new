@@ -119,7 +119,7 @@ export const therapyAreas: TherapyArea[] = [
               'av-pre-2',
               'Behind the Number',
               'AR',
-              'Patient',
+              'Both',
               'AR Experience / Interactive Web Experience / Patient Education Material',
               'The patient scans a QR code and sees a 3D coronary artery appear in AR. LDL-C gradually enters the artery wall and builds into plaque. As the plaque grows, the artery visibly narrows and blood flow becomes restricted. turning an invisible cholesterol number into a visible cardiovascular risk.\nThe experience then reinforces the importance of knowing and managing LDL-C before the silent progression of atherosclerosis becomes a serious event.',
               [
@@ -137,7 +137,7 @@ export const therapyAreas: TherapyArea[] = [
               'Gamification',
               'Patient',
               'Gamification / Patient Engagement / Web Experience',
-              'A quick interactive game where patients catch falling food and lifestyle choices. Each choice immediately changes a live Heart Health Bar: healthier foods and physical activity move it toward the healthy zone, while fast food, smoking, and inactivity move it toward the risk zone.\nhe goal is simple: make the right choices and keep your Heart Health Bar healthy.',
+              'A quick interactive game where patients catch falling food and lifestyle choices. Each choice immediately changes a live Heart Health Bar: healthier foods and physical activity move it toward the healthy zone, while fast food, smoking, and inactivity move it toward the risk zone.\nThe goal is simple: make the right choices and keep your Heart Health Bar healthy.',
               [
                 'Make healthy choices interactive: Learn by playing.',
                 'Show immediate impact: Every choice visibly changes the health bar.',
@@ -246,7 +246,7 @@ export const therapyAreas: TherapyArea[] = [
             ),
             idea(
               'av-launch-3',
-              'The Closing Artery - Two Patient Pathways',
+              'Two Patient Pathways',
               'Interactive Web',
               'HCP',
               'Interactive Web Experience / 3D Experience / Medical Rep Material',
@@ -262,7 +262,7 @@ export const therapyAreas: TherapyArea[] = [
             ),
             idea(
               'av-launch-5',
-              'Averto: The Full Picture',
+              'The Decathlon',
               'Interactive Web',
               'HCP',
               'Interactive Web Experience / 3D Experience / Medical Rep Material',
@@ -294,7 +294,7 @@ export const therapyAreas: TherapyArea[] = [
               avertoImg11
             ),
             idea(
-              'av-post-1',
+              'av-post-2',
               'The Cholesterol Factory',
               'Interactive Web',
               'HCP',
