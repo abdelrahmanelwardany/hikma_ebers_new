@@ -92,7 +92,7 @@ export default function Home() {
           {[
             { icon: Layers, k: '1', v: 'Ideas category', d: 'All ideas in one place' },
             { icon: HeartPulse, k: '2', v: 'Therapy areas', d: 'Cardiovascular · Diabetes' },
-            { icon: Sparkles, k: '14', v: 'Digital ideas', d: 'Across the cardiovascular portfolio' },
+            { icon: Sparkles, k: '15', v: 'Digital ideas', d: 'Across the cardiovascular portfolio' },
           ].map((s) => (
             <div
               key={s.v}

@@ -19,9 +19,12 @@ import avertoImg8 from '../../Images/img 8.jpeg';
 import avertoImg8_1 from '../../Images/img 8.1.jpeg';
 import avertoImg8_2 from '../../Images/img 8.2.jpeg';
 import avertoImg9 from '../../Images/img 9.jpeg';
-import avertoImg15 from '../../image/ideas/img-15.jpeg';
-import avertoImg16 from '../../image/ideas/img-16.jpeg';
-import avertoImg from '../../image/ideas/img.png';
+import avertoImg10 from '../../Images/img 10.jpeg';
+import avertoImg11 from '../../Images/img 11.jpeg';
+import avertoImg12 from '../../Images/img 12.jpeg';
+import avertoImg15 from '../../Image/ideas/img-15.jpeg';
+import avertoImg16 from '../../Image/ideas/img-16.jpeg';
+import avertoImg from '../../Image/ideas/img.png';
 
 
 
@@ -101,7 +104,7 @@ export const therapyAreas: TherapyArea[] = [
   {
     id: 'cardiovascular',
     name: 'Cardiovascular',
-    tagline: '2 Products · 14 Ideas',
+    tagline: '2 Products · 15 Ideas',
     description:
       'Two products, one shared insight: physicians don\'t need more data .  they need to see the problem before they see the product. From statin intolerance to adherence, every idea starts with that gap.',
     available: true,
@@ -112,6 +115,54 @@ export const therapyAreas: TherapyArea[] = [
         positioning:`This is an early-stage market. physician perception hasn't yet formed around this space, which makes now the right moment to lead with insight rather than product. That's why insight carries the greatest strategic weight: physicians need to recognize the treatment discontinuation pattern themselves before any product enters the conversation. Earn the insight first; earn the prescription second.`,
           
         ideas: [
+          idea(
+              'av-pre-2',
+              'Behind the Number',
+              'AR',
+              'Patient',
+              'AR Experience / Interactive Web Experience / Patient Education Material',
+              'The patient scans a QR code and sees a 3D coronary artery appear in AR. LDL-C gradually enters the artery wall and builds into plaque. As the plaque grows, the artery visibly narrows and blood flow becomes restricted. turning an invisible cholesterol number into a visible cardiovascular risk.\nThe experience then reinforces the importance of knowing and managing LDL-C before the silent progression of atherosclerosis becomes a serious event.',
+              [
+                'Make LDL-C visible: Turn an abstract number into a tangible disease process.',
+                'Build risk awareness: Show how LDL-C contributes to plaque formation and arterial narrowing.',
+                'Drive action: Encourage patients to know their numbers and discuss LDL-C management with their',
+              ],
+              'Patients understand what their LDL-C number means inside their arteries and why controlling it matters before cardiovascular risk progresses.',
+              ['av-pre-2-a','av-pre-2-b'],
+              [avertoImg2, avertoImg2_1],
+            ),
+            idea(
+              'av-launch-1',
+              'Every Choice Counts',
+              'Gamification',
+              'Patient',
+              'Gamification / Patient Engagement / Web Experience',
+              'A quick interactive game where patients catch falling food and lifestyle choices. Each choice immediately changes a live Heart Health Bar: healthier foods and physical activity move it toward the healthy zone, while fast food, smoking, and inactivity move it toward the risk zone.\nhe goal is simple: make the right choices and keep your Heart Health Bar healthy.',
+              [
+                'Make healthy choices interactive: Learn by playing.',
+                'Show immediate impact: Every choice visibly changes the health bar.',
+                'Build awareness: Connect daily habits with lipid and cardiovascular health.',
+              ],
+              'Patients see how everyday choices can influence their heart health and are encouraged to make healthier decisions.',
+              ['av-launch-1-a'],
+              avertoImg6,
+            ),
+            idea(
+              'av-launch-4',
+              'Build Your Heart-Healthy Day',
+              'Gamification',
+              'Patient',
+              'Patient Web Experience / Gamification / Interactive Web Experience',
+              'The patient enters the experience and chooses a part of their day Breakfast, Lunch, Dinner, or Snack. They are then presented with a virtual plate and several food choices to build their meal.\nOnce the meal is complete, the experience instantly reveals a meal score, highlights the better and less healthy choices, and suggests simple swaps to make the meal more heart-friendly. Short tips then explain how choices such as fiber-rich foods, saturated fat, and healthier cooking options can support better lipid and cardiovascular health.\nThe patient can repeat the journey across different meals to build a healthier day, one choice at a time.',
+              [
+                'Personalize healthy eating: Let patients build their own meals.',
+                'Turn choices into learning: Show the immediate impact of each meal.',
+                'Encourage better swaps: Provide simple, practical alternatives.',
+              ],
+              'Patients learn how to make more heart-friendly food choices through a simple, personalized, and engaging daily journey.',
+              ['av-launch-4-a'],
+              avertoImg9,
+            ),
             idea(
               'av-pre-1',
               'Inside the Mechanism: From Muscle to Liver',
@@ -129,20 +180,20 @@ export const therapyAreas: TherapyArea[] = [
               firstAvertoImage,
             ),
             idea(
-              'av-pre-2',
-              'Behind the Number',
-              'AR',
-              'Patient',
-              'AR Experience / Interactive Web Experience / Patient Education Material',
-              'The patient scans a QR code and sees a 3D coronary artery appear in AR. LDL-C gradually enters the artery wall and builds into plaque. As the plaque grows, the artery visibly narrows and blood flow becomes restrictedturning an invisible cholesterol number into a visible cardiovascular risk.\nThe experience then reinforces the importance of knowing and managing LDL-C before the silent progression of atherosclerosis becomes a serious event.',
+              'av-pre-4',
+              'Averto: Target the Source',
+              'Gamification',
+              'HCP',
+              'VR Game / Gamification / Medical Rep Material / Interactive Web Experience',
+              'A fast-paced MOA shooting game where the HCP guides Averto into the liver and activates it through ACSVL1. Once activated, Averto targets ACL, reducing hepatic cholesterol synthesis. The liver then increases LDL receptors, which capture more LDL from the bloodstream.\n\nThe player progresses through four simple stages: Activate → Target ACL → Unlock LDL Receptors → Clear LDL, turning the complete MOA into an interactive challenge.',
               [
-                'Make LDL-C visible: Turn an abstract number into a tangible disease process.',
-                'Build risk awareness: Show how LDL-C contributes to plaque formation and arterial narrowing.',
-                'Drive action: Encourage patients to know their numbers and discuss LDL-C management with their',
+                'Gamify the MOA: Turn a complex mechanism into an engaging experience.',
+                'Reinforce differentiation: Highlight liver activation and ACL inhibition.',
+                'Visualize the outcome: Show increased LDL clearance and reduced circulating LDL-C.',
               ],
-              'Patients understand what their LDL-C number means inside their arteries and why controlling it matters before cardiovascular risk progresses.',
-              ['av-pre-2-a','av-pre-2-b'],
-              [avertoImg2, avertoImg2_1],
+              'Physicians confront a real gap between what they assume and actual patient behavior, creating a personal "ah" moment that primes them for the product conversation ahead.',
+              ['av-pre-4-a','av-pre-4-b'],
+            [avertoImg4,avertoImg4_1],
             ),
             idea(
               'av-pre-3',
@@ -162,22 +213,6 @@ export const therapyAreas: TherapyArea[] = [
               [avertoImg3, avertoImg3_1],
             ),
             idea(
-              'av-pre-4',
-              'Averto: Target the Source',
-              'Gamification',
-              'HCP',
-              'VR Game / Gamification / Medical Rep Material / Interactive Web Experience',
-              'A fast-paced MOA shooting game where the HCP guides Averto into the liver and activates it through ACSVL1. Once activated, Averto targets ACL, reducing hepatic cholesterol synthesis. The liver then increases LDL receptors, which capture more LDL from the bloodstream.\n\nThe player progresses through four simple stages: Activate → Target ACL → Unlock LDL Receptors → Clear LDL, turning the complete MOA into an interactive challenge.',
-              [
-                'Gamify the MOA: Turn a complex mechanism into an engaging experience.',
-                'Reinforce differentiation: Highlight liver activation and ACL inhibition.',
-                'Visualize the outcome: Show increased LDL clearance and reduced circulating LDL-C.',
-              ],
-              'Physicians confront a real gap between what they assume and actual patient behavior, creating a personal "ah" moment that primes them for the product conversation ahead.',
-              ['av-pre-4-a','av-pre-4-b'],
-            [avertoImg4,avertoImg4_1],
-            ),
-            idea(
               'av-pre-5',
               'Two Paths. One Goal',
               'Interactive Web',
@@ -192,23 +227,6 @@ export const therapyAreas: TherapyArea[] = [
               'HCPs visualize the treatment difference and better understand where Bempedoic Acid may fit for appropriate patients.',
               ['av-pre-5-a', 'av-pre-5-b'],
               avertoImg5,
-            ),
-
-            idea(
-              'av-launch-1',
-              'Every Choice Counts',
-              'Gamification',
-              'Patient',
-              'Gamification / Patient Engagement / Web Experience',
-              'A quick interactive game where patients catch falling food and lifestyle choices. Each choice immediately changes a live Heart Health Bar: healthier foods and physical activity move it toward the healthy zone, while fast food, smoking, and inactivity move it toward the risk zone.\nhe goal is simple: make the right choices and keep your Heart Health Bar healthy.',
-              [
-                'Make healthy choices interactive: Learn by playing.',
-                'Show immediate impact: Every choice visibly changes the health bar.',
-                'Build awareness: Connect daily habits with lipid and cardiovascular health.',
-              ],
-              'Patients see how everyday choices can influence their heart health and are encouraged to make healthier decisions.',
-              ['av-launch-1-a'],
-              avertoImg6,
             ),
             idea(
               'av-launch-2',
@@ -243,53 +261,53 @@ export const therapyAreas: TherapyArea[] = [
               [avertoImg8,avertoImg8_1,avertoImg8_2],
             ),
             idea(
-              'av-launch-4',
-              'Build Your Heart-Healthy Day',
-              'Gamification',
-              'Patient',
-              'Patient Web Experience / Gamification / Interactive Web Experience',
-              'The patient enters the experience and chooses a part of their day Breakfast, Lunch, Dinner, or Snack. They are then presented with a virtual plate and several food choices to build their meal.\nOnce the meal is complete, the experience instantly reveals a meal score, highlights the better and less healthy choices, and suggests simple swaps to make the meal more heart-friendly. Short tips then explain how choices such as fiber-rich foods, saturated fat, and healthier cooking options can support better lipid and cardiovascular health.\nThe patient can repeat the journey across different meals to build a healthier day, one choice at a time.',
-              [
-                'Personalize healthy eating: Let patients build their own meals.',
-                'Turn choices into learning: Show the immediate impact of each meal.',
-                'Encourage better swaps: Provide simple, practical alternatives.',
-              ],
-              'Patients learn how to make more heart-friendly food choices through a simple, personalized, and engaging daily journey.',
-              ['av-launch-4-a'],
-              avertoImg9,
-            ),
-            idea(
               'av-launch-5',
-              'Regional Running League',
-              'Activation',
+              'Web Interactive Material',
+              'Interactive Web',
               'HCP',
               'Physical event · Social media content · Congress activation',
-              'A physical running challenge that brings HCPs together to represent cardiovascular health, prevention, and the importance of staying active. creating a visible symbol of shared commitment to better cardiovascular health.',
+              'The HCP enters a scientific decathlon where Averto is tested across several evidence-based events including LDL-C reduction, mechanism of action, cardiovascular outcomes, tolerability, and clinical fit. Instead of viewing a static comparison, the physician interacts with each event to unlock the supporting clinical evidence and complete Averto’s overall treatment profile.',
               [
-                'Physical, real-world activation .  not just digital engagement',
-                'Ties directly to cardiovascular prevention, reinforcing the disease narrative',
-                'Builds a visible, shared physician community around the brand',
+                'Highlight Averto’s strong LDL-C–lowering efficacy while moving the discussion beyond LDL-C alone.',
+                'Demonstrate Averto’s differentiation through its liver-activated MOA, cardiovascular evidence, tolerability, and clinical role.',
+                'Transform clinical data into a memorable, gamified HCP experience that encourages active exploration rather than passive detailing.',
               ],
-              'Physicians publicly associate themselves with cardiovascular health and prevention, creating brand goodwill and a recurring touchpoint that extends well past the initial launch.',
+              'Build stronger HCP understanding of why Averto stands out beyond LDL-C reduction, by highlighting the complete clinical value behind the treatment..',
               ['av-launch-5-a', 'av-launch-5-b'],
-              avertoImg8,
+              avertoImg10,
             ),
 
             idea(
               'av-post-1',
-              'Dyslipidemia Ecosystem',
-              'ecosystem platform',
-              'Both',
+              'The Two Faucets; Control Cholesterol ',
+              'Interactive Web',
+              'HCP',
               'HCP web platform · Patient mobile app · AI-assisted patient companion',
-              'A connected digital ecosystem that maintains communication between HCPs and patients beyond the consultation through two integrated interfaces.\n\nHCP Interface\nBeyond the Numbers / Beyond the Consultation\n\nEmotional patient stories help physicians connect lipid-profile results with patients\' lives and future health.\n\nThe interface provides a complete view of each patient\'s history, treatment, lifestyle, risk factors, adherence, concerns, missed doses, discontinued therapy, and delayed follow-up, supporting personalized monitoring and care.\n\nPatient Interface\nYour Cardiovascular Health Companion / My Lipid Profile\n\nPatients receive educational videos, healthy recipes, activity tracking, daily tips, medication reminders, and laboratory-result uploads before consultations.\n\nGamified challenges encourage engagement with nutrition, physical activity, treatment understanding, and follow-up.\n\nA controlled AI assistant answers general educational and non-medical questions, provides approved lifestyle guidance, and helps patients prepare for consultations.',
+              'The HCP enters an interactive “Two Faucets” challenge, where a central tank represents the body’s cholesterol pool. Two active faucets continuously feed the tank: one represents hepatic cholesterol synthesis, while the other represents intestinal cholesterol absorption. The physician interacts with each faucet to restrict the flow and reveal how bempedoic acid acts on cholesterol synthesis in the liver, while ezetimibe reduces intestinal cholesterol absorption. Activating both mechanisms demonstrates the complementary dual-action concept behind Averto Plus.',
               [
-                'Connects HCP and patient experiences into one continuous journey',
-                'Extends engagement beyond the consultation, sustaining Post-Launch relevance',
-                'Combines adherence data with emotional context for physicians',
+                'Simplify the dual mechanism of action into an intuitive, memorable visual experience.',
+                'Demonstrate how bempedoic acid and ezetimibe target two different contributors to the cholesterol pool.',
+                'Help HCPs understand the rationale of combining hepatic synthesis inhibition + intestinal absorption inhibition within one treatment approach.',
               ],
-              'Physicians gain a fuller, ongoing view of each patient\'s adherence and risk, while patients stay actively engaged with their treatment between visits .  turning a single prescription into sustained, monitored care.',
+              'Build a clear and memorable understanding of Averto Plus as a complementary dual-mechanism approach that controls cholesterol through two different pathways.',
               ['av-post-1-a','av-post-1-b'],
-              [avertoImg8_2,avertoImg8_2]
+              avertoImg11
+            ),
+                        idea(
+              'av-post-1',
+              'Web Interactive Material ',
+              'Interactive Web',
+              'HCP',
+              'HCP web platform · Patient mobile app · AI-assisted patient companion',
+              'The HCP enters a gamified cholesterol-synthesis factory, where cholesterol is shown as the final product moving through an assembly line. The physician taps different machines to discover where lipid-lowering therapies act. Bempedoic acid/Averto is revealed at an earlier stage of the pathway, while statins act further downstream, visually demonstrating that bempedoic acid works two steps upstream from statins in hepatic cholesterol synthesis.',
+              [
+                'Make Averto’s upstream mechanism of action simple and immediately understandable.',
+                'Visually differentiate where bempedoic acid and statins act within the cholesterol-synthesis pathway.',
+                'Turn a complex biochemical pathway into a short, memorable, interactive learning experience.',
+              ],
+              'Help HCPs clearly remember where Averto acts in the hepatic cholesterol pathway and why its earlier ACL inhibition represents a distinct mechanism of action.',
+              ['av-post-1-a','av-post-1-b'],
+              avertoImg12
             ),
           ],
       },

@@ -10,7 +10,7 @@ const navItems = [
 ];
 
 const therapyLinks = [
-  { label: 'Cardiovascular', to: '/therapy-areas/cardiovascular', desc: '2 Products · 14 Ideas' },
+  { label: 'Cardiovascular', to: '/therapy-areas/cardiovascular', desc: '2 Products · 15 Ideas' },
   { label: 'Diabetes', to: '/therapy-areas/diabetes', desc: 'Coming Soon' },
 ];
 
