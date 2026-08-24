@@ -22,8 +22,8 @@ import avertoImg9 from '../../Images/img 9.jpeg';
 import avertoImg10 from '../../Images/img 10.jpeg';
 import avertoImg11 from '../../Images/img 11.jpeg';
 import avertoImg12 from '../../Images/img 12.jpeg';
-import avertoImg15 from '../../Image/ideas/img-15.jpeg';
-import avertoImg16 from '../../Image/ideas/img-16.jpeg';
+import avertoImg15 from '../../image/ideas/img-15.jpeg';
+import avertoImg16 from '../../image/ideas/img-16.jpeg';
 import avertoImg from '../../image/ideas/img.png';
 
 
