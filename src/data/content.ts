@@ -262,10 +262,10 @@ export const therapyAreas: TherapyArea[] = [
             ),
             idea(
               'av-launch-5',
-              'Web Interactive Material',
+              'Averto: The Full Picture',
               'Interactive Web',
               'HCP',
-              'Physical event · Social media content · Congress activation',
+              'Interactive Web Experience / 3D Experience / Medical Rep Material',
               'The HCP enters a scientific decathlon where Averto is tested across several evidence-based events including LDL-C reduction, mechanism of action, cardiovascular outcomes, tolerability, and clinical fit. Instead of viewing a static comparison, the physician interacts with each event to unlock the supporting clinical evidence and complete Averto’s overall treatment profile.',
               [
                 'Highlight Averto’s strong LDL-C–lowering efficacy while moving the discussion beyond LDL-C alone.',
@@ -282,7 +282,7 @@ export const therapyAreas: TherapyArea[] = [
               'The Two Faucets; Control Cholesterol ',
               'Interactive Web',
               'HCP',
-              'HCP web platform · Patient mobile app · AI-assisted patient companion',
+              'Interactive Web Experience / 3D Experience / Medical Rep Material',
               'The HCP enters an interactive “Two Faucets” challenge, where a central tank represents the body’s cholesterol pool. Two active faucets continuously feed the tank: one represents hepatic cholesterol synthesis, while the other represents intestinal cholesterol absorption. The physician interacts with each faucet to restrict the flow and reveal how bempedoic acid acts on cholesterol synthesis in the liver, while ezetimibe reduces intestinal cholesterol absorption. Activating both mechanisms demonstrates the complementary dual-action concept behind Averto Plus.',
               [
                 'Simplify the dual mechanism of action into an intuitive, memorable visual experience.',
@@ -293,12 +293,12 @@ export const therapyAreas: TherapyArea[] = [
               ['av-post-1-a','av-post-1-b'],
               avertoImg11
             ),
-                        idea(
+            idea(
               'av-post-1',
-              'Web Interactive Material ',
+              'The Cholesterol Factory',
               'Interactive Web',
               'HCP',
-              'HCP web platform · Patient mobile app · AI-assisted patient companion',
+              'Interactive Web Experience / 3D Experience / Medical Rep Material',
               'The HCP enters a gamified cholesterol-synthesis factory, where cholesterol is shown as the final product moving through an assembly line. The physician taps different machines to discover where lipid-lowering therapies act. Bempedoic acid/Averto is revealed at an earlier stage of the pathway, while statins act further downstream, visually demonstrating that bempedoic acid works two steps upstream from statins in hepatic cholesterol synthesis.',
               [
                 'Make Averto’s upstream mechanism of action simple and immediately understandable.',
